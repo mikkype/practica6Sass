@@ -1,0 +1,36 @@
+@use '../base/variables' as v;
+@use '../base/mixin' as m;
+
+header {
+
+    color: v.$colorLetras;
+    padding: 10px;
+
+    .row{
+        @include m.media-responsive;
+    }
+    
+    img {
+        width: 100px;
+        padding-bottom: 10px
+    }
+
+    nav {
+        @include m.flex-nav;
+        background-color: v.$colorLetras;
+
+
+        a {
+            color: v.$colorLogo;
+            text-decoration: none;
+            margin: 10px;
+            background-color: v.$colorBlanco;
+        &:hover{
+                font-weight: bold;
+            }
+        }
+        @include m.media-responsive;
+
+    }
+
+}

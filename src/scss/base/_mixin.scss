@@ -1,0 +1,11 @@
+@mixin flex_nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+@mixin media-responsive{
+    @media (width <768px) {
+        flex-direction: column;
+        text-align: center;
+    }
+}

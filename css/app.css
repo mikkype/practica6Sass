@@ -1,3 +1,43 @@
+header {
+  color: #f097b6;
+  padding: 10px;
+}
+@media (width < 768px) {
+  header .row {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+header img {
+  width: 100px;
+  padding-bottom: 10px;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f097b6;
+}
+header nav a {
+  color: #ee5e8e;
+  text-decoration: none;
+  margin: 10px;
+  background-color: #fff;
+}
+header nav a:hover {
+  font-weight: bold;
+}
+@media (width < 768px) {
+  header nav {
+    flex-direction: column;
+    text-align: center;
+  }
+}
 
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
 
 /*# sourceMappingURL=app.css.map */
