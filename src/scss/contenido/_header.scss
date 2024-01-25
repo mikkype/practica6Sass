@@ -1,0 +1,6 @@
+@use '../base/variables' as v;
+@use '../base/mixin' as c;
+
+h1{
+    color : v.$primario;
+}
