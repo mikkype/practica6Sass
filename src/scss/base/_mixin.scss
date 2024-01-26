@@ -9,3 +9,14 @@
         text-align: center;
     }
 }
+
+@mixin img-adj{
+    width: 50px;
+    margin-right: 10px;
+}
+
+@mixin flex-aside{
+    display: flex;
+    align-items:center;
+
+}

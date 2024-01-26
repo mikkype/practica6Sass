@@ -1,0 +1,21 @@
+@use '../base/variables' as v;
+@use '../base/mixin' as m;
+
+footer {
+    color: v.$colorBlanco;
+
+    nav {
+        @include m.flex-nav;
+        background-color: v.$colorNegro;
+
+        a {
+            color: v.$colorBlanco;
+            text-decoration: none;
+            padding: 10px;
+        }
+
+        @include m.media-responsive;
+    }
+
+
+}

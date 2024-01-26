@@ -33,6 +33,41 @@ header nav a:hover {
   }
 }
 
+aside {
+  display: flex;
+  align-items: center;
+}
+aside img {
+  width: 50px;
+  margin-right: 10px;
+}
+aside span {
+  font-size: 1.2rem;
+}
+aside p {
+  margin-left: 10px;
+}
+
+footer {
+  color: #fff;
+}
+footer nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #000;
+}
+footer nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+@media (width < 768px) {
+  footer nav {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
 body {
   padding: 0;
   margin: 0;
