@@ -1,6 +1,7 @@
 @mixin flex_nav{
     display: flex;
     justify-content: space-between;
+    
 }
 
 @mixin media-responsive{
@@ -19,4 +20,9 @@
     display: flex;
     align-items:center;
 
+}
+
+@mixin item-color{
+        height: 100px;
+        margin-bottom: 10px;
 }

@@ -1,12 +1,39 @@
 @use '../base/variables' as v;
 @use '../base/mixin' as m;
 
-main {
-    .uno{
-        background-color: v.$colorLogo;
+
+main{
+
+    .item {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        height: 30px;
+        margin-bottom: 10px;
     }
-    .dos{
-        background-color: aqua;
-        
+
+    .item-color{
+        @include m.item-color;
     }
+
+    .springgren{
+       background-color: v.$springgreen;
+    }
+
+    .darkorchid{
+        background-color: v.$darkorchid;
+    }
+
+    .darkslategray{
+        background-color: v.$darkslatgray;    
+    }
+
+    .dodgerblue{
+        background-color: v.$dodgerblue;
+    }
+
+
+
+   
+    
 }

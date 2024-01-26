@@ -68,11 +68,28 @@ footer nav a {
   }
 }
 
-main .uno {
-  background-color: #ee5e8e;
+main .item {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  height: 30px;
+  margin-bottom: 10px;
 }
-main .dos {
-  background-color: aqua;
+main .item-color {
+  height: 100px;
+  margin-bottom: 10px;
+}
+main .springgren {
+  background-color: #00ff7f;
+}
+main .darkorchid {
+  background-color: #9932cc;
+}
+main .darkslategray {
+  background-color: #2f4f4f;
+}
+main .dodgerblue {
+  background-color: #1e90ff;
 }
 
 body {
