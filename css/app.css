@@ -68,6 +68,13 @@ footer nav a {
   }
 }
 
+main .uno {
+  background-color: #ee5e8e;
+}
+main .dos {
+  background-color: aqua;
+}
+
 body {
   padding: 0;
   margin: 0;

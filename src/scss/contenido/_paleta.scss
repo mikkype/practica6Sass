@@ -1,0 +1,12 @@
+@use '../base/variables' as v;
+@use '../base/mixin' as m;
+
+main {
+    .uno{
+        background-color: v.$colorLogo;
+    }
+    .dos{
+        background-color: aqua;
+        
+    }
+}
