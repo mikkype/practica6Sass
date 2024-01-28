@@ -1,28 +1,36 @@
-@mixin flex_nav{
+//header
+@mixin flex_nav {
     display: flex;
     justify-content: space-between;
-    
 }
 
-@mixin media-responsive{
+@mixin media-responsive {
     @media (width <768px) {
         flex-direction: column;
         text-align: center;
     }
 }
 
-@mixin img-adj{
+@mixin img-adj {
     width: 50px;
     margin-right: 10px;
 }
 
-@mixin flex-aside{
+//container
+@mixin flex-aside {
     display: flex;
-    align-items:center;
-
+    align-items: center;
 }
 
-@mixin item-color{
-        height: 100px;
-        margin-bottom: 10px;
+//paletacolores
+@mixin item {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    max-width: 100%;
+}
+
+@mixin logo-sass {
+    width: 100px;
+    margin-bottom: 10px;
 }

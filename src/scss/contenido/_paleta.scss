@@ -2,38 +2,40 @@
 @use '../base/mixin' as m;
 
 
-main{
+main {
 
-    .item {
-        display: flex;
-        align-items: baseline;
-        justify-content: space-between;
-        height: 30px;
-        margin-bottom: 10px;
+    section {
+
+        .item {
+            @include m.item;
+        }
+
+        .item-color{
+            height: 100px;
+        }
+
+        .fila-color{
+            margin: auto;
+        }
+        .springgreen {
+            background-color: v.$springgreen;
+        }
+
+        .darkorchid {
+            background-color: v.$darkorchid;
+        }
+
+        .darkslategray {
+            background-color: v.$darkslatgray;
+        }
+
+        .dodgerblue {
+            background-color: v.$dodgerblue;
+        }
+
+        .strong{
+            font-weight: bold;
+        }
     }
-
-    .item-color{
-        @include m.item-color;
-    }
-
-    .springgren{
-       background-color: v.$springgreen;
-    }
-
-    .darkorchid{
-        background-color: v.$darkorchid;
-    }
-
-    .darkslategray{
-        background-color: v.$darkslatgray;    
-    }
-
-    .dodgerblue{
-        background-color: v.$dodgerblue;
-    }
-
-
-
-   
-    
 }
+

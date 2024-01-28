@@ -2,36 +2,29 @@
 @use '../base/mixin' as m;
 
 header {
-
     color: v.$colorLetras;
+    background-color: v.$colorBlanco;
     padding: 10px;
-
     .row{
         @include m.media-responsive;
     }
     
     img {
-        width: 100px;
-        padding-bottom: 10px
+        @include m.logo-sass;
     }
 
     nav {
         @include m.flex-nav;
+        @include m.media-responsive;
         background-color: v.$colorLetras;
-
-
+        padding: 10px 5px;
         a {
-            color: v.$colorLogo;
             text-decoration: none;
-            margin: 10px;
-            background-color: v.$colorBlanco;
-            
         &:hover{
                 font-weight: bold;
+                background-color: v.$colorBlanco;
+                color : v.$colorLogo;
             }
         }
-        @include m.media-responsive;
-
     }
-
 }

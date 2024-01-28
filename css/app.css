@@ -1,5 +1,6 @@
 header {
   color: #f097b6;
+  background-color: #fff;
   padding: 10px;
 }
 @media (width < 768px) {
@@ -10,27 +11,27 @@ header {
 }
 header img {
   width: 100px;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 header nav {
   display: flex;
   justify-content: space-between;
   background-color: #f097b6;
-}
-header nav a {
-  color: #ee5e8e;
-  text-decoration: none;
-  margin: 10px;
-  background-color: #fff;
-}
-header nav a:hover {
-  font-weight: bold;
+  padding: 10px 5px;
 }
 @media (width < 768px) {
   header nav {
     flex-direction: column;
     text-align: center;
   }
+}
+header nav a {
+  text-decoration: none;
+}
+header nav a:hover {
+  font-weight: bold;
+  background-color: #fff;
+  color: #ee5e8e;
 }
 
 aside {
@@ -50,53 +51,63 @@ aside p {
 
 footer {
   color: #fff;
-}
-footer nav {
+  background-color: #000;
   display: flex;
   justify-content: space-between;
-  background-color: #000;
-}
-footer nav a {
-  color: #fff;
-  text-decoration: none;
-  padding: 10px;
 }
 @media (width < 768px) {
-  footer nav {
+  footer {
     flex-direction: column;
     text-align: center;
   }
 }
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+footer p {
+  margin: 5px 0;
+}
 
-main .item {
+main section .item {
   display: flex;
-  align-items: baseline;
   justify-content: space-between;
-  height: 30px;
-  margin-bottom: 10px;
+  height: 50px;
+  max-width: 100%;
 }
-main .item-color {
+main section .item-color {
   height: 100px;
-  margin-bottom: 10px;
 }
-main .springgren {
+main section .fila-color {
+  margin: auto;
+}
+main section .springgreen {
   background-color: #00ff7f;
 }
-main .darkorchid {
+main section .darkorchid {
   background-color: #9932cc;
 }
-main .darkslategray {
+main section .darkslategray {
   background-color: #2f4f4f;
 }
-main .dodgerblue {
+main section .dodgerblue {
   background-color: #1e90ff;
 }
+main section .strong {
+  font-weight: bold;
+}
 
-body {
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: Arial;
+}
+
+.container {
+  max-width: 1200px;
+  height: 100%;
+  margin-top: 5px;
 }
 
 /*# sourceMappingURL=app.css.map */
