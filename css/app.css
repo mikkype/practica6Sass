@@ -34,19 +34,51 @@ header nav a:hover {
   color: #ee5e8e;
 }
 
-aside {
+aside .facebook {
   display: flex;
   align-items: center;
+  margin-bottom: 2px;
+  background-color: #5ef3d3;
+}
+aside .linkedin {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2px;
+  background-color: #e9e3d7;
+}
+aside .instagram {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2px;
+  background-color: #f17cd4;
+}
+aside .youtube {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2px;
+  background-color: #46a7c5;
+}
+aside .pinterest {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2px;
+  background-color: #ebca5e;
+}
+aside .twitter {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2px;
+  background-color: #63d4f0;
 }
 aside img {
-  width: 50px;
-  margin-right: 10px;
-}
-aside span {
-  font-size: 1.2rem;
+  width: 60px;
+  margin: 15px;
 }
 aside p {
-  margin-left: 10px;
+  margin-bottom: 3px;
+}
+aside p.strong {
+  font-weight: bold;
 }
 
 footer {
@@ -75,22 +107,28 @@ main section .item {
   height: 50px;
   max-width: 100%;
 }
-main section .item-color {
+main section .springgreen::before {
+  content: "";
+  display: block;
   height: 100px;
-}
-main section .fila-color {
-  margin: auto;
-}
-main section .springgreen {
   background-color: #00ff7f;
 }
-main section .darkorchid {
+main section .darkorchid::before {
+  content: "";
+  display: block;
+  height: 100px;
   background-color: #9932cc;
 }
-main section .darkslategray {
+main section .darkslategray::before {
+  content: "";
+  display: block;
+  height: 100px;
   background-color: #2f4f4f;
 }
-main section .dodgerblue {
+main section .dodgerblue::before {
+  content: "";
+  display: block;
+  height: 100px;
   background-color: #1e90ff;
 }
 main section .strong {

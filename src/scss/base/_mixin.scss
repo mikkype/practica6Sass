@@ -1,3 +1,5 @@
+@use '../base/variables' as v;
+
 //header
 @mixin flex_nav {
     display: flex;
@@ -10,17 +12,34 @@
         text-align: center;
     }
 }
-
-@mixin img-adj {
-    width: 50px;
-    margin-right: 10px;
-}
-
 //container
-@mixin flex-aside {
+@mixin img-rrss {
+    width: 60px;
+    margin : 15px;
+}
+@mixin flex-aside ($color){
     display: flex;
     align-items: center;
+    margin-bottom: 2px;
+    background-color: $color;
 }
+@mixin colors-rrss($color){
+    @if $color == 'facebook'{
+        @include flex-aside(v.$facebook);
+    }@else if $color == 'twitter'{
+        @include flex-aside(v.$twitter);
+    }@else if $color == 'instagram'{
+        @include flex-aside(v.$instagram);
+    }@else if $color == 'pinterest'{
+        @include flex-aside(v.$pinterest);
+    }@else if $color == 'linkedin'{
+        @include flex-aside(v.$linkedin);
+    }@else if $color == 'youtube'{
+        @include flex-aside(v.$youtube);
+    }
+}
+
+
 
 //paletacolores
 @mixin item {
@@ -34,3 +53,6 @@
     width: 100px;
     margin-bottom: 10px;
 }
+
+//rrss
+

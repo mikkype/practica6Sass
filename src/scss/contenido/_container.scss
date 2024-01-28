@@ -2,23 +2,43 @@
 @use '../base/mixin' as m;
 
 aside {
-
-    @include m.flex-aside;
     
+    .facebook {
+        @include m.colors-rrss('facebook');
+    }
+    
+    .linkedin {
+        @include m.colors-rrss('linkedin');
+    }
+    
+    .instagram {
+        @include m.colors-rrss('instagram');
+    }
+    
+    .youtube {
+        @include m.colors-rrss('youtube');
+    }
+
+    .pinterest {
+        @include m.colors-rrss('pinterest');
+    }
+    
+    .twitter {
+        @include m.colors-rrss('twitter');
+    }
+
 
     img {
 
-        @include m.img-adj;
+        @include m.img-rrss;
     }
 
-    span {
-
-       font-size: 1.2rem;
-    }
     p {
-        
-        margin-left: 10px;
+        margin-bottom: 3px;
+    
+        &.strong{
+            font-weight:  bold;
+        }
     }
-
-
+    
 }

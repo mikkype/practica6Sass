@@ -10,32 +10,36 @@ main {
             @include m.item;
         }
 
-        .item-color{
+        .springgreen::before {
+            content: '';
+            display: block;
             height: 100px;
-        }
-
-        .fila-color{
-            margin: auto;
-        }
-        .springgreen {
             background-color: v.$springgreen;
         }
 
-        .darkorchid {
+        .darkorchid::before {
+            content: '';
+            display: block;
+            height: 100px;
             background-color: v.$darkorchid;
         }
 
-        .darkslategray {
+        .darkslategray::before {
+            content: '';
+            display: block;
+            height: 100px;
             background-color: v.$darkslatgray;
         }
 
-        .dodgerblue {
+        .dodgerblue::before {
+            content: '';
+            display: block;
+            height: 100px;
             background-color: v.$dodgerblue;
         }
 
-        .strong{
+        .strong {
             font-weight: bold;
         }
     }
 }
-
