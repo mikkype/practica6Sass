@@ -101,11 +101,12 @@ footer p {
   margin: 5px 0;
 }
 
+main section {
+  /*paleta*/
+}
 main section .item {
   display: flex;
   justify-content: space-between;
-  height: 50px;
-  max-width: 100%;
 }
 main section .springgreen::before {
   content: "";
@@ -133,6 +134,83 @@ main section .dodgerblue::before {
 }
 main section .strong {
   font-weight: bold;
+}
+main section .t1a {
+  background-color: rgb(235, 25, 172);
+}
+main section .t2a {
+  background-color: rgb(236, 180, 59);
+}
+main section .t3a {
+  background-color: rgb(13, 127, 204);
+}
+main section .t1b {
+  background-color: rgb(235, 25, 172);
+}
+main section .t2b {
+  background-color: rgb(236, 180, 59);
+}
+main section .t3b {
+  background-color: rgb(13, 127, 204);
+}
+main section .t1c {
+  background-color: rgb(235, 25, 172);
+}
+main section .t2c {
+  background-color: rgb(236, 180, 59);
+}
+main section .t3c {
+  background-color: rgb(13, 127, 204);
+}
+main section .t1d {
+  background-color: rgb(235, 25, 172);
+}
+main section .t2d {
+  background-color: rgb(236, 180, 59);
+}
+main section .t3d {
+  background-color: rgb(13, 127, 204);
+}
+main section .row-center {
+  margin: auto;
+  height: 100px;
+}
+
+main section .t1 {
+  background-color: #00ff7f;
+}
+main section .t2 {
+  background-color: #9932cc;
+}
+main section .t3 {
+  background-color: #2f4f4f;
+}
+main section .t4 {
+  background-color: #1e90ff;
+}
+main section .t1light {
+  background-color: #66ffb2;
+}
+main section .t1dark {
+  background-color: #00994c;
+}
+main section .t2light {
+  background-color: #c283e1;
+}
+main section .t2dark {
+  background-color: #5c1e7a;
+}
+main section .t3light {
+  background-color: #558f8f;
+}
+main section .t3dark {
+  background-color: #090f0f;
+}
+main section .t4light {
+  background-color: #84c2ff;
+}
+main section .t4dark {
+  background-color: #005db7;
 }
 
 * {

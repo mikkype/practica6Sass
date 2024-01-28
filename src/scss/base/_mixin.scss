@@ -38,15 +38,10 @@
         @include flex-aside(v.$youtube);
     }
 }
-
-
-
 //paletacolores
 @mixin item {
     display: flex;
     justify-content: space-between;
-    height: 50px;
-    max-width: 100%;
 }
 
 @mixin logo-sass {

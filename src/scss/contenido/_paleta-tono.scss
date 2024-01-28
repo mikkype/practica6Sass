@@ -1,0 +1,46 @@
+@use '../base/variables' as v;
+@use '../base/mixin' as m;
+
+main {
+    section {
+
+        @each $nombre, $color in v.$tonalidad {
+            .#{$nombre} {
+                background-color: $color;
+
+            }
+        }
+
+        .t1light {
+            background-color: v.$t1a;
+        }
+
+        .t1dark {
+            background-color: v.$t1b;
+        }
+
+        .t2light {
+            background-color: v.$t2a;
+        }
+
+        .t2dark {
+            background-color: v.$t2b;
+        }
+
+        .t3light {
+            background-color: v.$t3a;
+        }
+
+        .t3dark {
+            background-color: v.$t3b;
+        }
+
+        .t4light {
+            background-color: v.$t4a;
+        }
+
+        .t4dark {
+            background-color: v.$t4b;
+        }
+    }
+}

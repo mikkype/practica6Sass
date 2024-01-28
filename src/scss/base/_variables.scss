@@ -17,3 +17,28 @@ $darkslatgray : #2f4f4f;
 $dodgerblue : #1e90ff;
 $darkorchid : #9932cc;
 $springgreen : #00ff7f;
+
+
+$tonalidad :(
+    t1:$springgreen,
+    t2:$darkorchid,
+    t3:$darkslatgray,
+    t4:$dodgerblue,
+);
+
+
+$t1a: lighten($springgreen,20%);
+$t1b: darken($springgreen,20%);
+
+$t2a : lighten($darkorchid,20%);
+$t2b : darken($darkorchid,20%);
+
+$t3a : lighten($darkslatgray,20%);
+$t3b : darken($darkslatgray,20%);
+
+$t4a : lighten($dodgerblue,20%);
+$t4b : darken($dodgerblue,20%);
+
+
+
+
