@@ -38,37 +38,37 @@ aside .facebook {
   display: flex;
   align-items: center;
   margin-bottom: 2px;
-  background-color: #5ef3d3;
+  background-color: #0866FF;
 }
 aside .linkedin {
   display: flex;
   align-items: center;
   margin-bottom: 2px;
-  background-color: #e9e3d7;
+  background-color: #5191d1;
 }
 aside .instagram {
   display: flex;
   align-items: center;
   margin-bottom: 2px;
-  background-color: #f17cd4;
+  background-color: #e24a98;
 }
 aside .youtube {
   display: flex;
   align-items: center;
   margin-bottom: 2px;
-  background-color: #46a7c5;
+  background-color: #dd3e3e;
 }
 aside .pinterest {
   display: flex;
   align-items: center;
   margin-bottom: 2px;
-  background-color: #ebca5e;
+  background-color: #9254e4;
 }
 aside .twitter {
   display: flex;
   align-items: center;
   margin-bottom: 2px;
-  background-color: #63d4f0;
+  background-color: #dded00;
 }
 aside img {
   width: 60px;
