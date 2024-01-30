@@ -2,14 +2,14 @@
 @use '../base/mixin' as m;
 
 footer {
-    color: v.$colorBlanco;
-    background-color: v.$colorNegro;
-    @include m.flex-nav;
+    @include m.flex-footer;
     @include m.media-responsive;
+
     a {
         color: v.$colorBlanco;
         text-decoration: none;
     }
+
     p {
         margin: 5px 0;
     }

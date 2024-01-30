@@ -4,6 +4,7 @@
 @mixin flex_nav {
     display: flex;
     justify-content: space-between;
+    background-color: v.$colorLetras;
 }
 
 @mixin media-responsive {
@@ -12,6 +13,16 @@
         text-align: center;
     }
 }
+
+//footer
+@mixin flex_footer {
+    display: flex;
+    justify-content: space-between;
+    color: v.$colorBlanco;
+    background-color: v.$colorNegro;
+}
+
+
 //container
 @mixin img-rrss {
     width: 60px;

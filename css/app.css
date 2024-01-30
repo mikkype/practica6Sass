@@ -4,7 +4,7 @@ header {
   padding: 10px;
 }
 @media (width < 768px) {
-  header .row {
+  header .row, header nav {
     flex-direction: column;
     text-align: center;
   }
@@ -18,12 +18,6 @@ header nav {
   justify-content: space-between;
   background-color: #f097b6;
   padding: 10px 5px;
-}
-@media (width < 768px) {
-  header nav {
-    flex-direction: column;
-    text-align: center;
-  }
 }
 header nav a {
   text-decoration: none;
@@ -82,10 +76,10 @@ aside p.strong {
 }
 
 footer {
-  color: #fff;
-  background-color: #000;
   display: flex;
   justify-content: space-between;
+  color: #fff;
+  background-color: #000;
 }
 @media (width < 768px) {
   footer {
@@ -101,9 +95,6 @@ footer p {
   margin: 5px 0;
 }
 
-main section {
-  /*paleta*/
-}
 main section .item {
   display: flex;
   justify-content: space-between;
@@ -134,42 +125,6 @@ main section .dodgerblue::before {
 }
 main section .strong {
   font-weight: bold;
-}
-main section .t1a {
-  background-color: rgb(235, 25, 172);
-}
-main section .t2a {
-  background-color: rgb(236, 180, 59);
-}
-main section .t3a {
-  background-color: rgb(13, 127, 204);
-}
-main section .t1b {
-  background-color: rgb(235, 25, 172);
-}
-main section .t2b {
-  background-color: rgb(236, 180, 59);
-}
-main section .t3b {
-  background-color: rgb(13, 127, 204);
-}
-main section .t1c {
-  background-color: rgb(235, 25, 172);
-}
-main section .t2c {
-  background-color: rgb(236, 180, 59);
-}
-main section .t3c {
-  background-color: rgb(13, 127, 204);
-}
-main section .t1d {
-  background-color: rgb(235, 25, 172);
-}
-main section .t2d {
-  background-color: rgb(236, 180, 59);
-}
-main section .t3d {
-  background-color: rgb(13, 127, 204);
 }
 main section .row-center {
   margin: auto;

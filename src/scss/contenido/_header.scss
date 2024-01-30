@@ -15,8 +15,7 @@ header {
 
     nav {
         @include m.flex-nav;
-        @include m.media-responsive;
-        background-color: v.$colorLetras;
+        @extend .row;
         padding: 10px 5px;
         a {
             text-decoration: none;
